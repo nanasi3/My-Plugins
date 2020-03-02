@@ -1,0 +1,7 @@
+name: Kill
+main: nanasi7743\Kill\Main
+api: 3.9.0
+version: 1.0.0
+author: nanasi
+website: https://www.twitter.com/nns7743_/
+description: /killを使うとConfigで設定された金額分、所持金が減ります

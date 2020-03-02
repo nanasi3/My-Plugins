@@ -1,0 +1,12 @@
+name: ItemClear
+main: nanasi7743\ItemClear\Main
+version: 1.0.0
+api: 3.0.0
+author: nanasi
+description: Clear all items in inventory.
+website: https://www.twitter.com/nns7743_/
+
+commands:
+  clear:
+    description: インベントリのアイテムを全削除します
+    usage: /clear

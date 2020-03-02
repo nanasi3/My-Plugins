@@ -1,0 +1,13 @@
+name: Message
+main: nanasi7743\Message\Main
+version: 1.0.0
+api: 3.0.0
+load: POSTWORLD
+author: nanasi
+description: Join Message.
+website: https://www.twitter.com/nns7743_/
+commands:
+  setm:
+    description: 参加・退出メッセージを変更します
+    usage: /setm < join | quit > <message>
+    permisson: op

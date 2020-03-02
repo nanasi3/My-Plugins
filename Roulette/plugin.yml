@@ -1,0 +1,10 @@
+name: Roulette
+api: 3.9.0
+main: roulette\main
+version: 1.0.0
+author: nanasi7743
+website: https://www.twitter.com/nns7743_
+commands:
+  ro:
+    description: ルーレットに使います
+    usage: /ro <value1 | value2>
