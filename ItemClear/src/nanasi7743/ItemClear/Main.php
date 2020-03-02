@@ -16,6 +16,7 @@ class main extends PluginBase implements Listener{
   public function onCommand(CommandSender $player, Command $command, string $label, array $args) : bool{
     switch($label){
       case "clear":
+      // このあたりから変
         if(!$sender instanceof Player) {
           $sender->sendMessage("ゲーム内で実行してください");
           return true;

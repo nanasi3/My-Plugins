@@ -4,7 +4,7 @@ main: Status\Main
 version: 1.0.0
 author: nanasi
 website: https://www.twitter.com/nns7743_
-commands:
-  status:
-    description: ステータスの表示・非表示
-    usage: /stat <on | off>
+# commands:
+  # status:
+    # description: ステータスの表示・非表示
+    # usage: /stat <on | off>

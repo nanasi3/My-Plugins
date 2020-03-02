@@ -18,7 +18,9 @@ class Main extends PluginBase implements Listener {
 	public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getLogger()->info("§bMessageを起動しました by nanasi");
+        // Configで{name}を使いたいので変更お願い致しますことに致します
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML, array(
+            
             "Join" => "", 
             "Quit" => "",
         ));

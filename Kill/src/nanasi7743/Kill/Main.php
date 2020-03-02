@@ -31,6 +31,7 @@ class Main extends PluginBase implements Listener {
         $this->getLogger()->info("§dKillを停止しました by nanasi");
     }
 
+    // ここから動かない
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args) :bool {
         $player = $event->getPlayer();
         $now = EconomyAPI::getInstance()->myMoney($player);
