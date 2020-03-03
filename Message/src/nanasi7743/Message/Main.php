@@ -75,4 +75,3 @@ class Main extends PluginBase implements Listener {
         $event->setQuitMessage($this->config->get("Quit"));
     }
 }
-   
